@@ -1,0 +1,90 @@
+body {
+  background-image: url("/assets/nebulaWP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ * {
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background: linear-gradient(to bottom, #d95c6b 0%, #253154 100%);
+  padding: 20px;
+  border: 2px solid black;
+  text-align: center;
+}
+.column {
+  float: left;
+  font-size: 125%;
+  padding: 15px;
+}
+.column.middle {
+  width: 75%;
+  align-content: center;
+}
+.column.side {
+  width: 25%;
+  text-align: center;
+  background: rgba(23, 30, 23, 0.718)
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+@media screen and (max-width: 600px) {
+  .column.middle, .column.side {
+    width: 100%;
+  }
+}
+h1, h2, h3, p {
+  color:white;
+}
+#glow {
+	box-shadow:
+		0 0 60px 30px #fff,  /* inner white */
+		0 0 100px 60px #f0f, /* middle magenta */
+		0 0 140px 90px #0ff; /* outer cyan */
+}
+h2{
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding:1em;
+  line-height:1.5em;
+  background:rgb(0, 0, 0);
+  align-content: center;
+}
+#one {
+  border:solid 5px rgb(36, 152, 175);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding:1em;
+  line-height:1.5em;
+  background:rgb(0, 0, 0);
+  align-content: center;
+}
+.section-heading {
+  text-align:center;
+  color:#102C4E;
+  margin-top: 150px;
+  margin-bottom:70px;
+  font-size: 35px;
+}
+/* Wide column */
+.column-1 {
+  width: 90%;
+  height: auto;
+  padding-top:70px;
+  padding-left:70px;
+  padding-bottom:70px;
+  margin:auto;
+  margin-bottom:50px;
+  margin-top: 75px;
+  color: white;
+  background: rgba(23, 30, 23, 0.718)
+}
+
+/* Table formatting */
+.table-style {
+  width:100%;
+  border-spacing: 24px;
+}
